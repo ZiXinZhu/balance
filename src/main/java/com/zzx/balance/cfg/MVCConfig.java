@@ -14,8 +14,8 @@ public class MVCConfig implements WebMvcConfigurer{
         registry.addViewController("/index").setViewName("404");
     }
 
-    @Override
-    public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(null);
-    }
+//    @Override
+//    public void addInterceptors(InterceptorRegistry registry) {
+//        registry.addInterceptor(null);
+//    }
 }
